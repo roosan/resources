@@ -81,13 +81,13 @@ a.ready(function () {
             scrollTop: 0
         }, 500)
     });
-    $sideToolbar = $('#' + d);
-    $(window).scroll(function () {
-        var t = a.scrollTop();
-        if (t > k) {
-            $sideToolbar.css('display', 'block')
-        } else {
-            $sideToolbar.css('display', 'none')
-        }
-    })
+    $sideToolbar = $('#' + d).css('display','block');
+//    $(window).scroll(function () {
+//        var t = a.scrollTop();
+//        if (t > k) {
+//            $sideToolbar.css('display', 'block')
+//        } else {
+//            $sideToolbar.css('display', 'none')
+//        }
+//    })
 });
